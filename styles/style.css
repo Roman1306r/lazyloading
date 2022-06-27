@@ -1,0 +1,119 @@
+/*Обнуление*/
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-size: 14px;
+    background-color: rgb(20, 20, 20);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+
+.wrapper {
+    min-height: 100%;
+}
+._loading_icon {
+    background: url('../images/ZZ5H.gif') center / 50px no-repeat;
+    height: 50px;
+}
+.page {
+    padding: 50px 0;
+}
+.page__container {
+    max-width: 1000px;
+    margin:  0 auto;
+}
+.page__section {
+    margin-bottom: 40px;
+}
+i.page__section_1 {
+}
+.page__title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: crimson;
+    text-shadow: 0px 0px 20px crimson;
+    text-align: center;
+}
+.page__text p{
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.page__section_2 {
+}
+.page__subtitle {
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.page__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page__image {
+    margin: 10px;
+    box-shadow: 0px 0px 10px white;
+    background: url('../images/ZZ5H.gif') center / 50px no-repeat;
+    width: 300px;
+   height: 300px;
+}
+.page__image img{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+}
+zz.page__section_3 {
+}
+
+
+
+
+.page__map {
+    padding: 0 0 50% 0;
+    position: relative;
+    background: url('../images/ZZ5H.gif') center / 50px no-repeat;
+}
+._load_map {
+
+}
+
+.page__map iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ленивая подгрузка</title>
+</head>
+<body>
+<div class="wrapper">
+    <main class="page">
+        <div class="page__container">
+            <div class="page__section page__section_1">
+                <h1 class="page__title">Ленивая подгрузка изображений, бесконечная подгрузка контента и ленивая подгрузка карты</h1>
+                <div class="page__text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                </div>
+            </div>
+            <div class="page__section page__section_2">
+                  <h2 class="page__subtitle">Ленивая подгрузка картинок</h2>
+                  <div class="page__images">
+                    <!-- !Первый способ ленивая подгрузка с помощью loading="lazy" (не кросбраузерный) -->
+                    <div class="page__image"><img loading="lazy" data-src="images/avto-bmv_bmw-brendy-logotipy-16796.jpeg" src="#" alt="Image"></div>
+                    <div class="page__image"><img alt="Image" data-src="images/cars-bmw-avtomobil-rul-spidometr-97083.jpeg"></div>
+                    <div class="page__image"><img data-src="images/cars-bmw-skorost-drift-dim-zakat-139085.jpeg" alt="Image"></div>
+                    <div class="page__image"><img data-src="images/cars-bmw_m3-bmw-avtomobil-fara-chernii-134994.jpeg" alt="Image"></div>
+                    <div class="page__image"><img data-src="images/cars-bmw_m3-bmw-avtomobil-vid_speredi-serii-84120.jpeg" alt="Image"></div>
+                    <div class="page__image"><img data-src="images/cars-bmw_m4-bmw-avtomobil-sportkar-vid_speredi-krasnii-146382.jpeg" alt="Image"></div>
+                  </div>
+            </div>
+            <div class="page__section page__section_3">
+                <h2 class="page__subtitle">Ленивая подгрузка карты</h2>
+                <div class="page__map _load_map" data-map="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62683.462356857155!2d30.206413769242264!3d55.16728581531184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1656286692925!5m2!1sru!2sby">
+                </div>
+            </div>
+            <div class="page__section page__section_1">
+                <h2 class="page__title">Бесконечная подгрузка контента</h2>
+                <div class="page__text _load_more">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci, accusantium officiis praesentium dolore molestias minus, nemo enim facere repellat eius repudiandae, rerum vel quod dignissimos expedita. Perferendis, ratione eum?
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+</div>    
+<script src="js/main.js"></script>    
+</body>
+</html>
